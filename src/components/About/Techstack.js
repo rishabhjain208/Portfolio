@@ -18,12 +18,18 @@ import {
   SiPostgresql,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
-
+import { SiTypescript } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiPrisma } from "react-icons/si";
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+<Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -47,22 +53,19 @@ function Techstack() {
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiExpress />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <RiTailwindCssFill />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiPrisma />
       </Col>
     </Row>
   );
