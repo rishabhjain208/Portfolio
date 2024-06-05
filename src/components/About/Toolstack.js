@@ -16,15 +16,19 @@ function Toolstack() {
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
+        <span className="text-white">VS Code</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
+        <span className="text-white">Postman</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiReplit />
+        <span className="text-white">Postgresql</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
+        <span className="text-white">Vercel</span>
       </Col>
     </Row>
   );
