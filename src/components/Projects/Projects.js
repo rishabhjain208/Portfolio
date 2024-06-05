@@ -43,11 +43,7 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Quick-News-Website"
-              description="• Implemented a dynamic news website with direct search
-              functionality using the News API, mobile-friendly menu, and
-              displaying articles with images, titles, sources, and publication dates.
-              Technologies: HTML, CSS, JavaScript, Online API, Rapid
-              API"
+              description="Created a dynamic news website featuring direct news search functionality powered by the News API. Implemented a responsive design with a mobile-friendly menu, fetching and displaying news articles with images, titles, sources, and publication dates. Technologies used: - HTML, CSS, JavaScript, Online API, Rapid API."
               ghLink="https://github.com/rishabhjain208/Quick-News-Website"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -57,8 +53,8 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Financial-Decision-Making-App"
-              description="Uifry is a comprehensive web application designed to help users make the best financial decisions. The app features a user-friendly interface, customizable options, and several unique features to enhance user experience. The project is built using React and Vite."
+              title="Financial-Decision-Landing-Page"
+              description="I developed a responsive landing page for this project using ReactJS and Tailwind CSS. I employed Vite with React to enhance the development process, which offers a speedy and efficient build tool for contemporary web applications. To view the project live, open the project folder in VS Code, run `npm install` to install all necessary dependencies, and then run `npm run dev` to start the development server. This setup provides a seamless and rapid development experience, utilizing the robust combination of React and Tailwind CSS to create dynamic and visually appealing user interfaces."
               ghLink="https://github.com/rishabhjain208/Landing-Page"
               demoLink="https://landing-page-6tk97aled-rishabh-jains-projects-25bcb276.vercel.app/"
             />
