@@ -8,7 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-
+import { SiGeeksforgeeks } from "react-icons/si";
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -72,7 +72,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+               <li className="social-icons">
                 <a
                   href="https://www.geeksforgeeks.org/user/rishabhjain208/"
                   target="_blank"
