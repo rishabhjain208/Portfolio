@@ -20,7 +20,7 @@ import {
 import { TbBrandGolang } from "react-icons/tb";
 import { SiTypescript } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { SiTailwindcss } from "react-icons/si";
 import { SiPrisma } from "react-icons/si";
 function Techstack() {
   return (
@@ -59,7 +59,7 @@ function Techstack() {
         <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <RiTailwindCssFill />
+        <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
