@@ -8,6 +8,7 @@ import {
   SiMacos,
 } from "react-icons/si";
 import { SiReplit } from "react-icons/si";
+
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -16,19 +17,19 @@ function Toolstack() {
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
-        <span className="text-white">VS Code</span>
+        <span style={{ fontSize: "12px", color: "white" }}>VS Code</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
-        <span className="text-white">Postman</span>
+        <span style={{ fontSize: "12px", color: "white" }}>Postman</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiReplit />
-        <span className="text-white">Postgresql</span>
+        <span style={{ fontSize: "12px", color: "white" }}>Replit</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
-        <span className="text-white">Vercel</span>
+        <span style={{ fontSize: "12px", color: "white" }}>Vercel</span>
       </Col>
     </Row>
   );
