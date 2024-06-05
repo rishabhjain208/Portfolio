@@ -69,7 +69,7 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="Landing-Page-Food"
-              description="Fully Responsive Foodie Landing page created with ReactJS. I have already created this project with HTML CSS and JavaScript, but now I created it once again with React. By making seperate components and using useState hook"
+              description="The Foodie App project is a React-based application designed to provide a seamless and engaging user experience. It features a fully responsive design with a hamburger menu and a responsive navbar for easy navigation. The app includes several sections: Header, Home, Specials, Populars, Order, and Footer, each tailored to enhance user interaction and display content effectively. Utilizing HTML, CSS, and React, this project aims to create an intuitive and visually appealing platform for food enthusiasts."
               ghLink="https://github.com/rishabhjain208/Landing-Page-Food"
               demoLink="https://landing-page-food-git-main-rishabh-jains-projects-25bcb276.vercel.app/"
             />
@@ -80,7 +80,7 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Job Portal Application"
-              description="• In this application, we register user login, check the current
+              description="In this application, we register user login, check the current
               status of the user, and also create jobs.
               Technologies: Node.js, MongoDB, JavaScript, Express.js,
               React.js, VS Code.
