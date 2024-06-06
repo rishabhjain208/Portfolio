@@ -33,6 +33,10 @@ function Techstack() {
         <DiJavascript1 />
         <span style={{ fontSize: "12px", color: "white" }}> JavaScript</span>
       </Col>
+     <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+        <span style={{ fontSize: "12px", color: "white" }}>  TypeScript</span>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
         <span style={{ fontSize: "12px", color: "white" }}>  Nodejs</span>
@@ -46,20 +50,12 @@ function Techstack() {
         <span style={{ fontSize: "12px", color: "white" }}>MongoDB</span>
       </Col>
      <Col xs={4} md={2} className="tech-icons">
-        <DiMysql />
-        <div className="overlay">
-          <div className="fadeText">
-            MySQL
-          </div>
-        </div>
+      <DiMysql />
+        <span style={{ fontSize: "12px", color: "white" }}> MySQL</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
-        <span style={{ fontSize: "12px", color: "white" }}>  Nextjs</span>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript />
-        <span style={{ fontSize: "12px", color: "white" }}>  TypeScript</span>
+        <span style={{ fontSize: "12px", color: "white" }}>  NextJS</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiExpress />
