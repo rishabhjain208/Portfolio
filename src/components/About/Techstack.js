@@ -7,6 +7,7 @@ import {
   DiNodejs,
   DiMongodb,
   DiJava,
+  DiMysql,
 } from "react-icons/di";
 import {
   SiNextdotjs,
@@ -43,6 +44,14 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
         <span style={{ fontSize: "12px", color: "white" }}>MongoDB</span>
+      </Col>
+     <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
+        <div className="overlay">
+          <div className="fadeText">
+            MySQL
+          </div>
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
