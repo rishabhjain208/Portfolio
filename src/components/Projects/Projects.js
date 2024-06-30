@@ -34,7 +34,7 @@ function Projects() {
               Mongoose, JWT, Stripe payment, Cloudinary, Context API,
               React router v6"
               ghLink="https://github.com/rishabhjain208/Medicare-bookings"
-              demoLink="https://medicare-booking-app.vercel.app/"
+              demoLink="https://medicarebooking.vercel.app/"
             />
           </Col>
 
