@@ -33,7 +33,7 @@ function Projects() {
               Technologies: Reactjs, TailwindCSS, Nodejs, MongoDB,
               Mongoose, JWT, Stripe payment, Cloudinary, Context API,
               React router v6"
-              ghLink="https://github.com/rishabhjain208/Medicare-bookings"
+              // ghLink="https://github.com/rishabhjain208/Medicare-bookings"
               demoLink="https://medicarebooking.vercel.app/"
             />
           </Col>
@@ -49,7 +49,7 @@ function Projects() {
               processing capabilities.
               Technologies: Node.js, React.js, Express.js, MongoDB, OpenAIAPI
 "
-              ghLink="https://github.com/rishabhjain208/nodejs-job-portal"
+              // ghLink="https://github.com/rishabhjain208/minichatGPT_frontend"
               demoLink="https://minichagpt.vercel.app/login"
             />
           </Col>
