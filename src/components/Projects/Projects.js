@@ -37,7 +37,22 @@ function Projects() {
               demoLink="https://medicarebooking.vercel.app/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="Mini Chatgpt"
+              description="Developed a Mini ChatGPT application with user authentication (login/logout) and multi-language support for dynamic
+              responses. Integrated features allowing users to ask questions
+              on various topics, including technical subjects, and receive realtime responses in multiple languages. Ensured a seamless user
+              experience with a conversational interface and natural language
+              processing capabilities.
+              Technologies: Node.js, React.js, Express.js, MongoDB, OpenAIAPI
+"
+              ghLink="https://github.com/rishabhjain208/nodejs-job-portal"
+              demoLink="https://minichagpt.vercel.app/login"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
@@ -68,21 +83,6 @@ function Projects() {
               description="The Foodie App project is a React-based application designed to provide a seamless and engaging user experience. It features a fully responsive design with a hamburger menu and a responsive navbar for easy navigation. The app includes several sections: Header, Home, Specials, Populars, Order, and Footer, each tailored to enhance user interaction and display content effectively. Utilizing HTML, CSS, and React, this project aims to create an intuitive and visually appealing platform for food enthusiasts."
               ghLink="https://github.com/rishabhjain208/Landing-Page-Food"
               demoLink="https://landing-page-food-git-main-rishabh-jains-projects-25bcb276.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Job Portal Application"
-              description="In this application, we register user login, check the current
-              status of the user, and also create jobs.
-              Technologies: Node.js, MongoDB, JavaScript, Express.js,
-              React.js, VS Code.
-              "
-              ghLink="https://github.com/rishabhjain208/nodejs-job-portal"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
